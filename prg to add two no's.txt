@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <conio.h>
+ 
+int main(){
+    /* Integer variable declation */
+    int firstNumber, secondNumber, sum;
+     
+    /* Taking input from user and storing it in firstNumber 
+       and secondNumber */
+    printf("Enter First Number: ");
+    scanf("%d", &firstNumber);
+    printf("Enter Second Number: ");
+    scanf("%d", &secondNumber);
+     
+    /* Adding two numbers and storing the result in variable "sum" */
+    sum = firstNumber + secondNumber;
+    printf("Sum of %d and %d is %d", firstNumber, secondNumber, sum);
+    getch();
+    return 0;
+}
